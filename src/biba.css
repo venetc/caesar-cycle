@@ -1,0 +1,23 @@
+@import url("./n.css");
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  margin-inline: auto;
+  max-width: 32rem;
+  padding-inline: 1rem;
+  font-family: monospace;
+}
+
+#arrows {
+  width: fit-content;
+  margin-inline: auto;
+  margin-block: 0.5rem;
+  font-size: 1rem;
+}
+
+#textarea {
+  resize: vertical;
+  min-height: 10rem;
+}
